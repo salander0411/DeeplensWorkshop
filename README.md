@@ -19,12 +19,12 @@ The workshop consists of 4 hands-on lab sessions:
 
 # Hands-on Step 1: Register and configure your DeepLens device (You can skip this lab if device registration is already complete)
 
-Follow instructions here: [Registration Your Deeplens](https://docs.aws.amazon.com/zh_cn/deeplens/latest/dg/deeplens-register-device-v1.1.html)
+Follow instructions here: [Registration Your Deeplens](https://docs.aws.amazon.com/zh_cn/deeplens/latest/dg/deeplens-getting-started-register.html)
 
 
 # Hands-on Step 2: Build and train a face detection model in SageMaker
 
-In this lab, you will build and train a face detection model. Follow instructions here: [SageMaker lab](https://github.com/mahendrabairagi/DeeplensWorkshop/tree/master/SageMaker%20lab)
+In this lab, you will build and train a face detection model. Follow instructions here: [SageMaker lab](https://github.com/salander0411/DeeplensWorkshop/tree/master/SageMaker%20lab)
 
 # Hands-on Step 3: Build a project to detect faces and send the cropped faces to S3 bucket
 
@@ -290,7 +290,7 @@ Now, name your deeplens project.
 
 ![Alt text](/screenshots/deeplens_project_3.png)
 
-Next, select "Add model". From the pop-up window, select "deeplens-face-detection" then click "Add model".
+Next, select "Add model". From the pop-up window, select "MXNET" for model type and "deeplens-face-detection" for model name, then click "Add model".
 
 ![Alt text](/screenshots/deeplens_project_4.png)
 
